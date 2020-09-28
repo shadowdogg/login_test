@@ -1,0 +1,37 @@
+{
+  "type":"benchmarks",
+  "data":[
+    {
+      "title":"Beverages",
+      "id":"122929-2222-22222",
+      "children":[
+        {
+          "title":"Carbonated",
+          "id":"122929-2222-22222",
+          "children":[
+            {
+              "title":"Branded",
+              "id":"122929-2222-22222"
+            },
+            {
+              "title":"Own label",
+              "id":"122929-2222-22222"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title":"Clothing",
+      "id":"122929-2222-22222"
+    },
+    {
+      "title":"Gaming",
+      "id":"122929-2222-22222"
+    },
+    {
+      "title":"Technology",
+      "id":"122929-2222-22222"
+    }
+  ]
+}

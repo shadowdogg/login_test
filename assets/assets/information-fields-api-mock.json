@@ -1,0 +1,114 @@
+{
+  "id":"2922929-22222-2222",
+  "fields":[
+    {
+      "fieldType":"text",
+      "originalValue":"222",
+      "isLocked":false,
+      "bronze":2,
+      "hintText":"Input 3 where it is 3 packs of 24 cans",
+      "labelText":"Minimum purchase units",
+      "isLockable":true,
+      "lastEdited":{
+        "name":"Jenny",
+        "id":"339939339-2222",
+        "dateTime":1603178400000
+      },
+      "keyboardType":"number",
+      "validator":"requiredValidator",
+      "restrictArray": "digitsOnly"
+    },
+    {
+      "fieldType":"text",
+      "originalValue":"Coca-cola",
+      "maxLength":45,
+      "isLocked":false,
+      "bronze":2,
+      "hintText":"Name of brand",
+      "labelText":"Brand",
+      "isLockable":true,
+      "lastEdited":{
+        "name":"Jenny",
+        "id":"339939339-2222",
+        "dateTime":1593172400000
+      },
+      "validator":"min3LengthValidator"
+    },
+    {
+      "fieldType":"text",
+      "maxLength":80,
+      "isLocked":false,
+      "bronze":6,
+      "hintText":"Email Address",
+      "isObscured": false,
+      "labelText":"Email",
+      "isLockable":true,
+      "lastEdited":{
+        "name":"Jenny",
+        "id":"339939339-2222",
+        "dateTime":1593172400000
+      },
+      "keyboardType":"emailAddress",
+      "validator":"emailValidator"
+    },
+    {
+      "fieldType":"text",
+      "maxLength":80,
+      "isLocked":false,
+      "bronze":6,
+      "hintText":"Minimum Length 8 Characters",
+      "isObscured": true,
+      "labelText":"Password",
+      "isLockable":true,
+      "lastEdited":{
+        "name":"Jenny",
+        "id":"339939339-2222",
+        "dateTime":1593172400000
+      }
+    },
+    {
+      "fieldType":"switch",
+      "originalValue":true,
+      "isLocked":false,
+      "bronze":1,
+      "hintText":"This assumes the tax is above 0%",
+      "labelText":"Taxable",
+      "isLockable":true
+    },
+    {
+      "fieldType":"dropdown",
+      "items":[
+        "g",
+        "kg",
+        "ml"
+      ],
+      "isLockable":true,
+      "bronze":3,
+      "hintText":"Choose from the dropdown",
+      "labelText":"Measurement",
+      "isLocked":false,
+      "lastEdited":{
+        "name":"Jenny",
+        "id":"339939339-2222",
+        "dateTime":1593172400000
+      },
+      "validator":"requiredValidator"
+    },
+    {
+      "fieldType":"autocomplete",
+      "originalValue":"Tesco",
+      "isLocked":true,
+      "bronze":5,
+      "hintText":"Choose a retailer from the dropdown",
+      "labelText":"Retailer",
+      "isLockable":true,
+      "lastEdited":{
+        "name":"Jenny",
+        "id":"339939339-2222",
+        "dateTime":1593172400000
+      },
+      "getApiUrl":"https://cors-anywhere.herokuapp.com/https://en.wikipedia.org/w/api.php?action=opensearch&limit=20&format=json&search=",
+      "validator":"requiredValidator"
+    }
+  ]
+}
